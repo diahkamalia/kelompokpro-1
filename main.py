@@ -62,7 +62,8 @@ with st.container():
             st.success(f"#### Total Data : {sumdata}")
             st.write("## Dataset Explanation")
             st.write("Data didapat dari :")
-            st.markdown(f'[ Yahoo Finance ]({https://finance.yahoo.com/})')
+            repo2 = "https://finance.yahoo.com/"
+            st.markdown(f'[ Yahoo Finance ]({repo2})')
 
             col1,col2 = st.columns(2)
             with col1:
