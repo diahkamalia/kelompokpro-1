@@ -61,7 +61,8 @@ with st.container():
             sumdata = len(df)
             st.success(f"#### Total Data : {sumdata}")
             st.write("## Dataset Explanation")
-            st.write("Data didapat dari [ Yahoo Finance ]({https://finance.yahoo.com/}")
+            st.write("Data didapat dari :")
+            st.markdown(f'[ Yahoo Finance ]({https://finance.yahoo.com/})')
 
             col1,col2 = st.columns(2)
             with col1:
