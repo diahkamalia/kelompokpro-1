@@ -39,8 +39,12 @@ with st.container():
         st.markdown('<h1 style = "text-align: center;"> <b>Proyek Sains Data B</b> </h1>', unsafe_allow_html = True)
         st.markdown('')
 
-        st.markdown('<div style ="text-align: justify;"> <b>Nama Kelompok : </div>', unsafe_allow_html = True)
-
+        st.markdown( # Nama Kelompok : ")
+        st.info(" 
+                - Layla Mufah Choiriyah - 200411100052
+                - Diah Kamalia - 200411100061
+                ")
+       
     elif choose == "Project":
         st.title("Data Mining - Water Quality Prediction")
         st.write("Diah Kamalia - 200411100061")
