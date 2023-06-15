@@ -53,5 +53,34 @@ with st.container():
     elif choose == "Project":
         st.title("Data Mining - Water Quality Prediction")
         st.write("Diah Kamalia - 200411100061")
-        desc, dataset, preprocessing, modelling, implementation = st.tabs(["Deskripsi Data", "Dataset", "Preprocessing", "Modelling", "Implementasi"])
-        
+        data, preprocessing, model, implementasi = st.tabs(["Data","Preprocessing", "Model", "Implementasi"])
+        with data:
+            st.write("# About Dataset")
+            st.write("""# Load Dataset""")
+            df = pd.read_csv("https://raw.githubusercontent.com/diahkamalia/DataMining1/main/TLKM.JK.csv")
+            df
+            sumdata = len(df)
+            st.success(f"#### Total Data : {sumdata}")
+            st.write("## Dataset Explanation")
+
+            col1,col2 = st.columns(2)
+            with col1:
+                st.info("#### Data Type")
+                df.dtypes
+            with col2:
+                st.info("#### Empty Data")
+                st.write(df.isnull().sum())
+                #===================================
+             
+                
+                
+        with preprocessing : 
+            st.write("""# Preprocessing""")
+
+        with model : 
+            st.write("""# Model""")
+            st.info("## K - Nearest Neighbor")
+
+        with implementasi:
+            st.write("# Implementation")
+            st.write("### Add Review :")
