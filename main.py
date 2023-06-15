@@ -38,7 +38,7 @@ with st.container():
         
         st.markdown('# Proyek Sains Data B")
 
-        st.info( # Nama Kelompok : ")
+        st.info( " # Nama Kelompok : ")
         st.write("Layla Mufah Choiriyah - 200411100052")
         st.write("Diah Kamalia - 200411100061")
        
