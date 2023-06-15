@@ -38,14 +38,14 @@ with st.container():
         
         st.markdown("# Proyek Sains Data B")
 
-        st.info( " Nama Kelompok : ")
+        st.info( " ## Nama Kelompok : ")
         st.write(" - Layla Mufah Choiriyah - 200411100052")
         st.write("- Diah Kamalia - 200411100061")
-        st.write("## Repository Github")
+        st.info("## Repository Github")
         st.write(" Click the link below to access the source code")
         repo = "https://github.com/LaylaMufahChoiriyah/kelompokpro"
         st.markdown(f'[ Link Repository Github ]({repo})')
-        st.write("## Link Colaboratory")
+        st.info("## Link Colaboratory")
         repo1 = "https://colab.research.google.com/drive/1rQpD_c6EobkvysD6biIa-DGLrbRiiErQ?usp=sharing"
         st.markdown(f'[ Link Colaboratory ]({repo1})')
         
