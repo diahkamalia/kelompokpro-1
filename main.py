@@ -51,8 +51,7 @@ with st.container():
         
        
     elif choose == "Project":
-        st.title("Data Mining - Water Quality Prediction")
-        st.write("Diah Kamalia - 200411100061")
+        st.title("PSD B - Telkomsel Finance")
         data, preprocessing, model, implementasi = st.tabs(["Data","Preprocessing", "Model", "Implementasi"])
         with data:
             st.write("# About Dataset")
